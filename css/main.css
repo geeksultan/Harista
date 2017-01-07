@@ -1,0 +1,52 @@
+{color: black;}
+body
+{background: none repeat scroll 0 0 #fff;
+    color: #222;
+    margin:0;
+}
+a {color:	#E6BE89;
+	text-decoration: none;
+  font-family: fantasy;
+}
+a:hover {
+	/*change color on hover*/
+	color: #b76e79;
+	/*add underline when user hovers*/
+	text-decoration: line-through;
+}
+/*select all anchor tags that have a class of button and are hovered on*/
+a.button:hover {
+	text-decoration:line-through;
+}
+/*select any elements with a class of top-navigation*/
+.top-navigation {
+	float:center;
+  padding-left: 409px;
+}
+/*select any elements with a class of top-navigation and find any li tags inside those*/
+.top-navigation li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;;
+	padding: 5px 5px 0 0;
+	vertical-align: middle;
+	margin: 70px 40px 0 0;
+	font-size: 13px;
+}
+/*logo*/
+.logo-img {
+	border-radius: 30px;
+	height: 70px;
+    width: 70px;
+    position: relative;
+    top: 5px;
+}
+.centerphoto{
+	position: center;
+	margin-top:51px;
+  padding-left: 400px;
+}
+.centerphoto img{
+    height: 400px;
+    width: 50%;
+}
