@@ -1,12 +1,13 @@
+/*body*/
 {color: black;}
 body
 {background: none repeat scroll 0 0 #fff;
-    color: #222;
-    margin:0;
+  color: #222;
+  margin:0;
 }
 a {color:	#E6BE89;
 	text-decoration: none;
-  font-family: fantasy;
+  font-family: 'Satisfy', cursive;
 }
 a:hover {
 	/*change color on hover*/
@@ -18,35 +19,55 @@ a:hover {
 a.button:hover {
 	text-decoration:line-through;
 }
-/*select any elements with a class of top-navigation*/
-.top-navigation {
-	float:center;
-  padding-left: 409px;
+/*top-navigation*/
+.nav{
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
-/*select any elements with a class of top-navigation and find any li tags inside those*/
-.top-navigation li{
-	list-style: none;
-	display: inline-block;
-	text-align: center;;
-	padding: 5px 5px 0 0;
-	vertical-align: middle;
-	margin: 70px 40px 0 0;
-	font-size: 13px;
+.nav li{
+  display:inline;
 }
+.nav a{
+  display:inline-block;
+  padding:0 65px 10px 95px;
+}
+
 /*logo*/
 .logo-img {
 	border-radius: 30px;
 	height: 70px;
-    width: 70px;
-    position: relative;
-    top: 5px;
+  width: 70px;
+  position: relative;
+  top: 5px;
+  opacity: 0.8;
+  filter: alpha(opacity=10);
 }
-.centerphoto{
+/*Homepage*/
+.coffeeandflowers{
 	position: center;
-	margin-top:51px;
-  padding-left: 400px;
+	margin-top:0;
+  padding-left: 9px;
 }
-.centerphoto img{
-    height: 400px;
-    width: 50%;
+.coffeeandflowers img{
+  display: block;
+  margin: auto;
+  width: 50%;
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  border-radius: 50%;
+}
+/*about me*/
+.aboutme{
+  color:	#b76e79;
+  text-decoration: none;
+  font-family: 'Rancho', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 250px;
+}
+.logo img{
+  width:10%;
+  padding-left: 572px
 }
